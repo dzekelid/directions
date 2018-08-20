@@ -1,52 +1,32 @@
 ---
 name: MapQuest
-description: MapQuest for Business powers thousands of businesses with location-enabled
-  Geospatial solutions. Our platform provides companies of any size with the means
-  to increase efficiency and streamline processes, connect with customers, and ultimately
-  deliver the all-important exceptional user experience. And, as usual, the MapQuest
-  for Business experience is backed by the customer service and technical support
-  that were known for.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/365_logo.png
+x-slug: mapquest
+description: Official MapQuest website, find driving directions, maps, live traffic
+  updates and road conditions.  Find nearby businesses, restaurants and hotels. Explore!
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapquest.jpg
 x-kinRank: "10"
-x-alexaRank: ""
-tags:
-- Viewer
-- Viewer
-- Traffic
-- Stack Network
-- Routing
-- Places
-- Openstreetmap
-- Openstreetmap
-- Openstreetmap
-- Openstreetmap
-- Openstreetmap
-- Navigation
-- Mobile
-- Mapping
-- Mapping
-- Location
-- Location
-- HTTP POST
-- Gps
-- Geocoding
-- Geocoding
-- Geocoding
-- Geo
-- Elevation
-- Display
-- Display
-- Display
-- Display
-- Directions
-- Directions
-- Directions
-created: "2018-03-10"
-modified: "2018-03-10"
-url: https://raw.githubusercontent.com/streamdata-gallery/directions/master/_listings/mapquest/apis.yaml
+x-alexaRank: "2843"
+tags: Directions
+created: "2018-08-19"
+modified: "2018-08-19"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/mapquest/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: MapQuest
+  x-api-slug: mapquest
+  description: Official MapQuest website, find driving directions, maps, live traffic
+    updates and road conditions.  Find nearby businesses, restaurants and hotels.
+    Explore!
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapquest.jpg
+  humanURL: http://mapquest.com
+  baseURL: https://www.mapquestapi.com//
+  tags: Directions
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/mapquest/openapi.md
 x-common:
+- type: x-api-stack
+  url: http://mapquest.stack.network
 - type: x-base
   url: http://open.mapquestapi.com/s
 - type: x-blog
@@ -54,15 +34,23 @@ x-common:
 - type: x-blog-rss
   url: http://blog.mapquest.com/feed/
 - type: x-crunchbase
+  url: https://crunchbase.com/organization/mapquest
+- type: x-crunchbase
   url: http://www.crunchbase.com/company/mapquest
 - type: x-developer
+  url: https://developer.mapquest.com/
+- type: x-developer
   url: http://www.mapquestapi.com/
+- type: x-documentation
+  url: https://developer.mapquest.com/documentation/
 - type: x-github
   url: https://github.com/MapQuest
+- type: x-openapi
+  url: https://developer.mapquest.com/documentation/search-api/v4/swagger/search-v4-swagger.yaml
 - type: x-pricing
   url: https://developer.mapquest.com/plans
 - type: x-twitter
-  url: https://twitter.com/MapQuestTech
+  url: https://twitter.com/MapQuest
 - type: x-website
   url: http://mapquest.com
 include: []
