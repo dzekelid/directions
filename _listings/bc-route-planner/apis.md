@@ -9,8 +9,8 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/bc-route-planner/apis.md
 specificationVersion: "0.14"
 apis:
@@ -40,6 +40,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/bc-route-planner/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://bc.laws.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://bc.route.planner.stack.network
 - type: x-website

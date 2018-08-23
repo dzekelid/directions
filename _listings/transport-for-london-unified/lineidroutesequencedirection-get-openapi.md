@@ -46,6 +46,35 @@ paths:
       - ""
       - Sequence
       - Direction
+  /StopPoint/{id}/DirectionTo/{toStopPointId}:
+    get:
+      summary: Stop Point  Direction To to Stop Point Id
+      description: Returns the canonical direction, "inbound" or "outbound", for a
+        given pair of stop point ids in the direction from -&gt; to..
+      operationId: StopPoint_Direction
+      x-api-path-slug: stoppointiddirectiontotostoppointid-get
+      parameters:
+      - in: path
+        name: id
+        description: Originating stop id (station naptan code e
+      - in: query
+        name: lineId
+        description: Optional line id filter e
+      - in: path
+        name: toStopPointId
+        description: Destination stop id (station naptan code e
+      responses:
+        200:
+          description: OK
+      tags:
+      - Stop
+      - Point
+      - ""
+      - Direction
+      - To
+      - Stop
+      - Point
+      - Id
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

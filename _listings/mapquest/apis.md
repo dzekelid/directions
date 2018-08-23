@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapque
 x-kinRank: "10"
 x-alexaRank: "2843"
 tags: Directions
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/mapquest/apis.md
 specificationVersion: "0.14"
 apis:
@@ -25,6 +25,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/mapquest/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://mailjet.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://mapquest.stack.network
 - type: x-base

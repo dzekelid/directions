@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/882-openro
 x-kinRank: "7"
 x-alexaRank: "6266"
 tags: Directions
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/openrouteservice/apis.md
 specificationVersion: "0.14"
 apis:
@@ -44,6 +44,8 @@ apis:
 x-common:
 - type: x-website
   url: http://wiki.openstreetmap.org/wiki/OpenRouteService#ORS_.22API.22
+- type: x-api-gallery
+  url: http://opendns.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://openrouteservice.stack.network
 - type: x-crunchbase

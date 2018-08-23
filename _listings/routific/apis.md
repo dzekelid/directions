@@ -8,8 +8,8 @@ image: https://www.routific.com/images/logo.svg
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/routific/apis.md
 specificationVersion: "0.14"
 apis:
