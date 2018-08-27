@@ -6,21 +6,11 @@ image: ""
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/the-transit-app/apis.md
 specificationVersion: "0.14"
-apis:
-- name: The Transit App
-  x-api-slug: the-transit-app
-  description: ""
-  image: ""
-  humanURL: https://transitapp.com
-  baseURL: https:///
-  tags: Directions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/the-transit-app/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://transitapp.com

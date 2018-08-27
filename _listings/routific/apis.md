@@ -8,23 +8,11 @@ image: https://www.routific.com/images/logo.svg
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/routific/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Routific
-  x-api-slug: routific
-  description: We provide a solution to automate and optimize your routing and scheduling
-    operations. Whether you deliver groceries, distribute compost bins, or pick up
-    laundry ??? any Vehicle Routing Problem for that matter ??? we got your back
-  image: https://www.routific.com/images/logo.svg
-  humanURL: https://routific.com/
-  baseURL: https:///
-  tags: Directions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/routific/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: https://raw.githubusercontent.com/picsoung/apis.json/master/routific.json

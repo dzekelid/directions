@@ -8,14 +8,15 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Transport for London Unified
-  x-api-slug: transport-for-london-unified
-  description: our-unified-api-brings-together-data-across-all-modes-of-transport-into-a-single-restful-api--this-api-provides-access-to-the-most-highly-requested-realtime-and-status-infomation-across-all-the-modes-of-transport-in-a-single-and-consistent-way--access-to-the-developer-documentation-is-available-at-httpsapi-tfl-gov-uk
+- name: Transport for London Unified - Line  Route  Sequence direction
+  x-api-slug: lineidroutesequencedirection-get
+  description: Gets all valid routes for given line id, including the sequence of
+    stops on each route..
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
   humanURL: https://tfl.gov.uk/
   baseURL: https://api.tfl.gov.uk//
@@ -25,9 +26,23 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-openapi.md
-- name: Transport for London Unified
-  x-api-slug: transport-for-london-unified
-  description: our-unified-api-brings-together-data-across-all-modes-of-transport-into-a-single-restful-api--this-api-provides-access-to-the-most-highly-requested-realtime-and-status-infomation-across-all-the-modes-of-transport-in-a-single-and-consistent-way--access-to-the-developer-documentation-is-available-at-httpsapi-tfl-gov-uk
+- name: Transport for London Unified - Stop Point  Direction To to Stop Point Id
+  x-api-slug: stoppointiddirectiontotostoppointid-get
+  description: Returns the canonical direction, "inbound" or "outbound", for a given
+    pair of stop point ids in the direction from -&gt; to..
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
+  humanURL: https://tfl.gov.uk/
+  baseURL: https://api.tfl.gov.uk//
+  tags: Transportation, Transit, General Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-openapi.md
+- name: Transport for London Unified - Line  Route  Sequence direction
+  x-api-slug: lineidroutesequencedirection-get
+  description: Gets all valid routes for given line id, including the sequence of
+    stops on each route..
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
   humanURL: https://tfl.gov.uk/
   baseURL: https://api.tfl.gov.uk//
@@ -37,67 +52,19 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-openapi.md
-- name: Transport for London Unified
-  x-api-slug: transport-for-london-unified
-  description: our-unified-api-brings-together-data-across-all-modes-of-transport-into-a-single-restful-api--this-api-provides-access-to-the-most-highly-requested-realtime-and-status-infomation-across-all-the-modes-of-transport-in-a-single-and-consistent-way--access-to-the-developer-documentation-is-available-at-httpsapi-tfl-gov-uk
+- name: Transport for London Unified - Stop Point  Direction To to Stop Point Id
+  x-api-slug: stoppointiddirectiontotostoppointid-get
+  description: Returns the canonical direction, "inbound" or "outbound", for a given
+    pair of stop point ids in the direction from -&gt; to..
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
   humanURL: https://tfl.gov.uk/
   baseURL: https://api.tfl.gov.uk//
   tags: Transportation, Transit, General Data, Service API
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-openapi.md
-  - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-openapi.md
-- name: Transport for London Unified
-  x-api-slug: transport-for-london-unified
-  description: our-unified-api-brings-together-data-across-all-modes-of-transport-into-a-single-restful-api--this-api-provides-access-to-the-most-highly-requested-realtime-and-status-infomation-across-all-the-modes-of-transport-in-a-single-and-consistent-way--access-to-the-developer-documentation-is-available-at-httpsapi-tfl-gov-uk
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
-  humanURL: https://tfl.gov.uk/
-  baseURL: https://api.tfl.gov.uk//
-  tags: Transportation, Transit, General Data, Service API
-  properties:
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/lineidroutesequencedirection-get-openapi.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-postman.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/stoppointiddirectiontotostoppointid-get-openapi.md
-- name: Transport for London Unified
-  x-api-slug: transport-for-london-unified
-  description: We are the integrated transport authority responsible for delivering
-    Mayor of London Sadiq Khans strategy and commitments on transport. We run the
-    day-to-day operation of the Capitals public transport network and manage Londons
-    main roads.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/transport-for-london-unified-api.png
-  humanURL: https://tfl.gov.uk/
-  baseURL: https://api.tfl.gov.uk//
-  tags: Directions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/transport-for-london-unified/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://transitfeeds.api.gallery.streamdata.io

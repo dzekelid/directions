@@ -9,30 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/bing-maps/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Bing
-  x-api-slug: bing
-  description: 'Bing API Version 2.0 enables you to embed a flexible and powerful
-    search engine as a custom search component in your sites and applications. The
-    Microsoft Bing API offers open, flexible options for building or enhancing your
-    site or applications. Developing an application with the new API is straightforward:
-    Choose a SourceTypes (Web, Images, InstantAnswer, Phonebook, RelatedSearch, Spelling),
-    choose an output protocol (JSON, SOAP, or XML) and then customize according to
-    your needs. Both the HTTP endpoints and the OpenSearch RSS interface are new in
-    this version. With the addition of these interfaces and enhanced SOAP support,
-    you are now able to choose the style of access and presentation most appropriate
-    for your application.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Bing_Maps_blue20logo.jpg
-  humanURL: https://www.bingmapsportal.com/
-  baseURL: :///
-  tags: Directions
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/bing-maps/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blogs.msdn.com/b/bingdevcenter/
