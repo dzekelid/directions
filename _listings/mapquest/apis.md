@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/365-mapque
 x-kinRank: "10"
 x-alexaRank: "2843"
 tags: Directions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/mapquest/apis.md
 specificationVersion: "0.14"
 apis: []

@@ -13,8 +13,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Directions
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/apis.md
 specificationVersion: "0.14"
 apis:
@@ -105,6 +105,31 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/v3directionsdirection-idroute-typeroute-type-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/v3directionsdirection-idroute-typeroute-type-get-openapi.md
+- name: Public Transport Victoria Timetable - Get V3 Directions Direction Route Type
+    Route Type
+  x-api-slug: v3directionsdirection-idroute-typeroute-type-get
+  description: View all routes of a particular type for a direction of travel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/public-transport-victoria.png
+  humanURL: https://www.ptv.vic.gov.au/about-ptv/data-and-reports/datasets/ptv-timetable-api/
+  baseURL: https://timetableapi.ptv.vic.gov.au//
+  tags: Transit, API Provider, Transportation, Profiles, General Data, Cities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/v3directionsdirection-idroute-typeroute-type-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/v3directionsdirection-idroute-typeroute-type-get-openapi.md
+- name: Public Transport Victoria Timetable - Get V3 Directions Direction
+  x-api-slug: v3directionsdirection-id-get
+  description: View all routes for a direction of travel.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/public-transport-victoria.png
+  humanURL: https://www.ptv.vic.gov.au/about-ptv/data-and-reports/datasets/ptv-timetable-api/
+  baseURL: https://timetableapi.ptv.vic.gov.au//
+  tags: Transit, API Provider, Transportation, Profiles, General Data, Cities
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/v3directionsdirection-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/directions/master/_listings/public-transport-victoria-timetable/v3directionsdirection-id-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://product.hunt.api.gallery.streamdata.io
